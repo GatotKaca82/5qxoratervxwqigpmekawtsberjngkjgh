@@ -1,12 +1,12 @@
 {
-  "name": "hami-web-hosting-html-template",
+  "name": "oto-pulsa-html-template",
   "version": "1.0.0",
-  "description": "Hami Web Hosting HTML Template",
+  "description": "OTO Pulsa Distributor H2H",
   "main": "index.js",
   "scripts": {
     "start": "gulp"
   },
-  "author": "colorlib",
+  "author": "OTO Pulsa",
   "license": "CC-BY-3.0",
   "devDependencies": {
     "gulp": "^3.9.1",
