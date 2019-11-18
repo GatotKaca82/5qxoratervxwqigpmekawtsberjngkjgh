@@ -1,69 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    type="text/css">
-  <link rel="stylesheet" href="theme.css" type="text/css">
-  <link rel="icon" href="upload/favicon.ico">
-  <title>Web Reporting | OTO Pulsa</title>
-  <link rel="canonical" href="./webreporting.html">
-  <meta name="google-site-verification" content="google6b29cc12f454f7ff">
-  <meta name="msvalidate.01" content="94F93C57F16633FD77232FEADCC2ECBC">
-  <meta name="yandex-verification" content="b6e51b897eab6b44">
-  <meta http-equiv="content-language" content="id">
-  <meta name="geo.region" content="ID-JB">
-  <meta name="geo.placename" content="Indramayu">
-  <meta name="geo.position" content="-6.327169;108.333877">
-  <meta name="ICBM" content="-6.327169, 108.333877">
-  <meta name="distribution" content="global">
-  <meta name="rating" content="general">
-  <meta name="robots" content="index, follow">
-  <meta name="author" content="Daniel Corsel">
-  <meta name="copyright" content="OTO Pulsa">
-  <meta property="og:locale" content="id">
-  <meta property="og:locale:alternate" content="en_US" />
-  <meta property="og:type" content="website">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="Web Report">
 
-  <meta name="search engines"
-    content="Aeiwi, Alexa, AllTheWeb, AltaVista, AOL Netfind, Anzwers, Canada, DirectHit, EuroSeek, Excite, Overture, Go, Google, HotBot. InfoMak, Kanoodle, Lycos, MasterSite, National Directory, Northern Light, SearchIt, SimpleSearch, WebsMostLinked, WebTop, What-U-Seek, AOL, Yahoo, WebCrawler, Infoseek, Excite, Magellan, LookSmart, CNET, Googlebot">
+  <title>Web Reporting - OTO Pulsa</title>
 
-  <meta name="description"
-    content="Web Reporting Server pulsa H2H OTO Pulsa Indramayu, digunakan untuk monitoring transaksi pulsa dan ppob dan cetak struk">
+  <link rel="stylesheet" href="https://report.metroreload.co.id/assets/bootstrap4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://report.metroreload.co.id/assets/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="https://report.metroreload.co.id/assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://report.metroreload.co.id/assets/nprogress/nprogress.css">
+  <link rel="stylesheet" href="https://report.metroreload.co.id/assets/core.css">
 
-  <meta name="keywords"
-    content="web reporting, OTO pulsa dan ppob, OTO ppob, agen pulsa, dealer pulsa,  distributor h2h pulsa dan ppob, pulsa murah, konter pulsa, server pulsa h2h, biller pulsa h2h">
-  <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-123143902-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-123143902-1');
-  </script>
-  <!-- ads 1 start-->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-4116213103941802",
-      enable_page_level_ads: true
-    });
-  </script>
-  <!-- ads 1 end-->
+  <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
 </head>
 
-<body>
-  <iframe src="//propana.otoreport.com"
-    style="position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
-  </iframe>
+<body class="material-design img-cover" style="background-color: #777777;">
 
+  <div class="container-fluid">
+    <div class="sign-form">
+      <div class="row">
+        <div class="col-md-4 offset-md-4 px-3">
+          <div class="box box-block bg-white">
+            <div class="p-2 text-xs-center">
+              <h5>Login Web Report</h5><br>
+              <img src="https://aksesglobalmultimedia.com/upload/agm-pulsa-dan-ppob.webp"
+                style="max-width: 200px;max-height: 125px;margin: 0 auto;" />
+            </div>
+            <div id="pilihanlogin">
+              <div class="box box-block tile tile-2 bg-primary mb-2" style="cursor: pointer;" id="wotp">
+                <div class="t-icon right"><i class="ti-package"></i></div>
+                <div class="t-content">
+                  <h6 class="text-uppercase">Login</h6>
+                  <h1 class="mb-1">Dengan OTP</h1>
+                </div>
+              </div>
+              <div class="box box-block tile tile-2 bg-warning mb-2" style="cursor: pointer;" id="wpass">
+                <div class="t-icon right"><i class="ti-lock"></i></div>
+                <div class="t-content">
+                  <h6 class="text-uppercase">Login</h6>
+                  <h1 class="mb-1">Dengan Password</h1>
+                </div>
+              </div>
+            </div>
+            <div id="fotp" style="display: none;">
+              <form class="form-material" method="post">
+                <div class="form-group">
+                  <input type="text" name="hpagen" class="form-control" id="phonenumber" placeholder="No HP"
+                    maxlength="30">
+                </div>
+                <div class="form-group">
+                  <input type="password" name="passwd" class="form-control" id="exampleInputPassword" placeholder="Pin">
+                  <input type="hidden" name="tp" value="ot" />
+                </div>
+                <div class="px-2 form-group mb-0">
+                  <input type="hidden" name="login" value="Login" />
+                  <button type="submit" name="log" data-toggle="modal" onclick="NProgress.start();" id="login"
+                    class="btn btn-info btn-block text-uppercase">Submit</button>
+                  <a href="javascript: void(0);" id="logindgnpasswd"
+                    class="btn btn-warning btn-block text-uppercase">Login Dengan Password</a>
+                </div>
+              </form>
+              <div class="p-2 text-xs-center text-muted">
+              </div>
+            </div>
+            <div id="fpass" style="display: none;">
+              <form class="form-material" method="post">
+                <div class="form-group">
+                  <input type="text" name="hpagen" class="form-control" id="phonenumber" placeholder="No HP"
+                    maxlength="30">
+                </div>
+                <div class="form-group">
+                  <input type="password" name="passwd" class="form-control" id="exampleInputPassword"
+                    placeholder="Password">
+                  <input type="hidden" name="tp" value="ps" />
+                </div>
+                <div class="px-2 form-group mb-0">
+                  <input type="hidden" name="login" value="Login" />
+                  <button type="submit" name="log" data-toggle="modal" onclick="NProgress.start();" id="login"
+                    class="btn btn-info btn-block text-uppercase">Submit</button>
+                  <a href="javascript: void(0);" id="logindgnotp" class="btn btn-purple btn-block text-uppercase">Login
+                    Dengan OTP</a>
+                </div>
+              </form>
+              <div class="p-2 text-xs-center text-muted">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://report.metroreload.co.id/assets/jquery/jquery-1.12.3.min.js"></script>
+  <script type="text/javascript" src="https://report.metroreload.co.id/assets/tether/js/tether.min.js"></script>
+  <script type="text/javascript" src="https://report.metroreload.co.id/assets/bootstrap4/js/bootstrap.min.js">
+  </script>
+  <script type="text/javascript" src="https://report.metroreload.co.id/assets/nprogress/nprogress.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#wotp").click(function () {
+        $("#pilihanlogin").hide();
+        $("#fotp").fadeIn();
+      });
+      $("#wpass").click(function () {
+        $("#pilihanlogin").hide();
+        $("#fpass").fadeIn();
+      });
+      $("#logindgnotp").click(function () {
+        $("#fpass").hide();
+        $("#fotp").fadeIn();
+      });
+      $("#logindgnpasswd").click(function () {
+        $("#fotp").hide();
+        $("#fpass").fadeIn();
+      });
+    });
+  </script>
 </body>
 
 </html>
