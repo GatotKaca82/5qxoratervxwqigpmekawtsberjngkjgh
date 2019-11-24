@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://otopulsa.com/sitemap.xml
+Sitemap: https://otopulsa.com/sitemap.xml
