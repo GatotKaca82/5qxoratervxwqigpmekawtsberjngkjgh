@@ -26,12 +26,14 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
+
 body {
     background-position: absolute;
     background: url(https://dpmptsp.indramayukab.go.id/pemda.gif) no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
+
 
 
 /*-- banner --*/
