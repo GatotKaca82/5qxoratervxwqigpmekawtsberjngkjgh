@@ -4,7 +4,7 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Premium Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 
 <url>
@@ -46,6 +46,16 @@
   <loc>https://otopulsa.com/download.html</loc>
   <lastmod>2018-08-24T16:28:19Z</lastmod>
   <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://otopulsa.com/agen-pulsa-murah-di-terisi-indramayu.html</loc>
+  <lastmod>2020-07-24T16:28:19Z</lastmod>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>https://otopulsa.com/agen-pulsa-murah-di-indramayu.html</loc>
+  <lastmod>2020-07-24T16:28:19Z</lastmod>
+  <priority>0.5</priority>
 </url>
 
 </urlset>
