@@ -149,7 +149,7 @@
 			text-decoration: none;
 			font-weight: bold;
 			color: #333;
-			height: 95px;
+			height: 99px;
 			margin-bottom: -36px;
 			box-shadow: 4px 4px 20px -4px rgba(0, 0, 0, 0.4);
 			-webkit-transition: all linear .1s;
@@ -178,7 +178,7 @@
 		}
 
 		.director>li>a {
-			width: 50%;
+			width: 60%;
 			margin: 0 auto 0px auto;
 		}
 
@@ -190,7 +190,7 @@
 			content: "";
 			display: block;
 			width: 0;
-			height: 130px;
+			height: 430px;
 			background: red;
 			border-left: 4px solid black;
 			left: 49.45%;
@@ -207,8 +207,8 @@
 		.departments>li:first-child {
 			width: 17.59894921190893%;
 			height: 64px;
-			margin: 0 auto 92px auto;
-			padding-top: 25px;
+			margin: 0 auto 392px auto;
+			padding-top: 35px;
 			border-bottom: 4px solid black;
 			z-index: 1;
 		}
@@ -277,7 +277,7 @@
 			border-right: 4px solid black;
 			border-left: 4px solid black;
 			margin: 0 auto;
-			top: 130px;
+			top: 430px;
 			left: 11.3%
 		}
 
@@ -310,6 +310,20 @@
 			margin-left: -5px;
 		}
 
+		.departmentz:after {
+			content: "";
+			display: block;
+			position: auto;
+			width: 0;
+			height: 359px;
+			border-left: 7px solid black;
+			z-index: 1;
+			top: -52px;
+			left: 50%;
+			margin-left: 23px;
+			margin-top: -316px;
+		}
+
 		.department {
 			border-left: 4px solid black;
 			width: 22.9894921190893%;
@@ -334,10 +348,10 @@
 				display: block;
 				position: absolute;
 				width: 0;
-				height: 60px;
+				height: 90px;
 				border-left: 4px solid black;
 				z-index: 1;
-				top: -60px;
+				top: -90px;
 				left: 0%;
 				margin-left: -4px;
 			}
@@ -353,27 +367,63 @@
 		}
 
 		.department>a:hover {
-			height: 80px;
+			height: 120px;
+		}
+
+		.departmentz>a:hover {
+			height: 120px;
 		}
 
 		.department>ul {
-			margin-top: 0px;
+			margin-top: 20px;
+			margin-bottom: 0px;
+		}
+
+		.departmentz>ul {
+			margin-top: 13px;
 			margin-bottom: 0px;
 		}
 
 		.department li {
 			padding-left: 25px;
 			border-bottom: 4px solid black;
-			height: 80px;
+			height: 120px;
+		}
+
+		.departmentz li {
+			padding-right: 25px;
+			border-bottom: 0px solid black;
+			height: 120px;
 		}
 
 		.department li a {
 			background: black;
 			top: 48px;
+			margin-bottom: 45px;
 			position: absolute;
 			z-index: 1;
 			width: 90%;
-			height: 60px;
+			height: 115px;
+			vertical-align: middle;
+			right: -1px;
+			background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMjUiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+			background-image: -moz-linear-gradient(-45deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 100%) !important;
+			background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(0, 0, 0, 0.25)), color-stop(100%, rgba(0, 0, 0, 0))) !important;
+			background-image: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 100%) !important;
+			background-image: -o-linear-gradient(-45deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 100%) !important;
+			background-image: -ms-linear-gradient(-45deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 100%) !important;
+			background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 100%) !important;
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#40000000', endColorstr='#00000000', GradientType=1);
+		}
+
+		.departmentz li a {
+			background: black;
+			top: 48px;
+			margin-bottom: 45px;
+			position: absolute;
+			z-index: 1;
+			width: 90%;
+			height: 115px;
 			vertical-align: middle;
 			right: -1px;
 			background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMjUiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
@@ -388,7 +438,15 @@
 
 		.department li a:hover {
 			box-shadow: 8px 8px 9px -4px rgba(0, 0, 0, 0.1);
-			height: 80px;
+			height: 120px;
+			width: 95%;
+			top: 39px;
+			background-image: none !important;
+		}
+
+		.departmentz li a:hover {
+			box-shadow: 8px 8px 9px -4px rgba(0, 0, 0, 0.1);
+			height: 120px;
 			width: 95%;
 			top: 39px;
 			background-image: none !important;
@@ -412,8 +470,8 @@
 			background: #A3A2A2;
 		}
 
-		.department.dep-e a {
-			background: #f0f0f0;
+		.departmentz.dep-e a {
+			background: #d18787;
 		}
 	</style>
 
@@ -753,24 +811,25 @@
 							data-plugin-options="{&quot;type&quot;:&quot;image&quot;}">
 							<p class="word-rotator-title appear-animation bounceIn appear-animation-visible"
 								data-appear-animation="bounceIn">
-								<strong style="font-size:14px;color:#d81817;">Kepala
-									DPMPTSP</strong><br>
+								<strong style="font-size:14px;color:#d81817;">KEPALA DINAS</strong><br>
 								<strong>Dra. Hj. CH. IIN INDRAYATI, M.Si</strong><br>
 								<strong>NIP. 19690427 198803 2 001</strong>
 							</p>
 						</a>
 						<ul class="subdirector">
-							<li>
-								<a href="img/organisasi/jokowi2.png" class="lightbox"
-									data-plugin-options="{&quot;type&quot;:&quot;image&quot;}">
-									<p class="word-rotator-title appear-animation bounceIn appear-animation-visible"
-										style="padding-left:85px; text-align:left;" data-appear-animation="bounceIn">
-										<strong
-											style="font-size:14px;color:#105c92;position:absolute;">Sekretariat.</strong>
-									</p>
-									<!-- <img class="img-responsive" src="img/projects/project.jpg" alt="Project Image"> -->
-								</a>
-
+							<li class="departmentz dep-e">
+								<a href="img/organisasi/RUMSIA.png" class="lightbox"
+									data-plugin-options="{&quot;type&quot;:&quot;image&quot;}"><span>SEKRETARIAT</span><br><span>Drs. ASEP SABAR NUGRAHA, M.Si</span><br><strong> NIP. 19671114 199803 004</strong></a>
+								<ul class="sections">
+									<li class="section"><a href="img/organisasi/RUSLANI.png" class="lightbox"
+											data-plugin-options="{&quot;type&quot;:&quot;image&quot;}"><span>SUB BAGIAN KEUANGAN, UMUM
+												DAN KEPEGAWAIAN </span><br><span>RAMIDAH, SH 
+											</span><br><strong> NIP. 19690506 200701 2 020</strong></a></li>
+									<li class="section"><a href="img/organisasi/KHOLID.png" class="lightbox"
+											data-plugin-options="{&quot;type&quot;:&quot;image&quot;}"><span>SUB BAGIAN PERENCANAAN
+												DAN EVALUASI </span><br><span>MAFTUHIN, ST</span><br><strong> NIP.19700206200801 1006 </strong></a></li>
+									
+								</ul>
 							</li>
 						</ul>
 						<ul class="departments cf">
@@ -806,8 +865,7 @@
 									<li class="section"><a href="img/organisasi/jokowi.jpg" class="lightbox"
 											data-plugin-options="{&quot;type&quot;:&quot;image&quot;}">
 											<span>KASI PERENCANAAN PENANAMAN
-												MODAL</span><br><span>SUHAEMI, SE</span><br><strong> NIP.196206187
-												198503 2 006 </strong></a>
+												MODAL</span><br><span></span><br><strong></strong></a>
 									</li>
 
 								</ul>
@@ -831,7 +889,7 @@
 									<li class="section"><a href="img/organisasi/jokowi.jpg" class="lightbox"
 											data-plugin-options="{&quot;type&quot;:&quot;image&quot;}"><span>KASI
 												DATA DAN
-												DOKUMENTASI</span><br><span>MN KUNAEFL
+												DOKUMENTASI</span><br><span>AAN KUNAEFL
 												S.IP</span><br><strong> NIP.19790205 200901 1 009 </strong></a></li>
 								</ul>
 							</li>
