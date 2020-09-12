@@ -5,7 +5,7 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>https://otopulsa.com</loc>
+  <loc>https://otopulsa.com/index.html</loc>
   <lastmod>2018-08-24T16:28:19Z</lastmod>
   <priority>1.0</priority>
 </url>
@@ -56,6 +56,16 @@
 </url>
 <url>
   <loc>https://otopulsa.com/seting-gtalk.html</loc>
+  <lastmod>2018-08-24T16:28:19Z</lastmod>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://otopulsa.com/deposit.html</loc>
+  <lastmod>2018-08-24T16:28:19Z</lastmod>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://otopulsa.com/seting-wa.html</loc>
   <lastmod>2018-08-24T16:28:19Z</lastmod>
   <priority>1.0</priority>
 </url>
