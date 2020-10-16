@@ -1,40 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>https://otopulsa.com/site1_sitemap.xml</loc>
+		<loc>https://otopulsa.com/sitemap0.xml</loc>
 	</sitemap>
 	<sitemap>
-		<loc>https://otopulsa.com/site2_sitemap.xml</loc>
+		<loc>https://otopulsa.com/sitemap1.xml</loc>
 	</sitemap>
 	<sitemap>
-		<loc>https://otopulsa.com/site3_sitemap.xml</loc>
+		<loc>https://otopulsa.com/sitemap2.xml</loc>
 	</sitemap>
 	<sitemap>
-		<loc>https://otopulsa.com/site4_sitemap.xml</loc>
+		<loc>https://otopulsa.com/sitemap3.xml</loc>
 	</sitemap>
 	<sitemap>
-		<loc>https://otopulsa.com/site5_sitemap.xml</loc>
+		<loc>https://otopulsa.com/sitemap4.xml</loc>
 	</sitemap>
 	<sitemap>
-		<loc>https://otopulsa.com/site6_sitemap.xml</loc>
+		<loc>https://otopulsa.com/sitemap5.xml</loc>
 	</sitemap>
 	<sitemap>
-		<loc>https://otopulsa.com/site7_sitemap.xml</loc>
+		<loc>https://otopulsa.com/sitemap6.xml</loc>
 	</sitemap>
-	<sitemap>
-		<loc>https://otopulsa.com/site8_sitemap.xml</loc>
-	</sitemap>
-	<sitemap>
-		<loc>https://otopulsa.com/site9_sitemap.xml</loc>
-	</sitemap>
-	<sitemap>
-		<loc>https://otopulsa.com/site10_sitemap.xml</loc>
-	</sitemap>
-	<sitemap>
-		<loc>https://otopulsa.com/site11_sitemap.xml</loc>
-	</sitemap>
-	<sitemap>
-		<loc>https://otopulsa.com/site12_sitemap.xml</loc>
-	</sitemap>
-	
+		
 </sitemapindex>

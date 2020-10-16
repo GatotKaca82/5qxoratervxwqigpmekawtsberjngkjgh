@@ -1,0 +1,184 @@
+/* ViaCss: Set the width. It will work since the inline style width is removed. */
+.select2-container {
+  width: 100%;
+}
+
+/* ViaCSS: We can, of course, define other widths for specific occasions */
+.shorter-selects2 .select2-container {
+  width: 80%;
+}
+
+td.boldtext{
+  font-weight:bold;
+}
+
+.tab-footer{
+  border-top: 1px solid #f4f4f4;
+  padding: 10px;
+  background-color: #fff;
+}
+.table {
+  border:1px solid black;
+  width:100%;
+}
+
+
+div.auto_scroll{
+  overflow-x:auto;
+}
+
+table.table td a.edit {
+  color: #FFC107;
+}
+
+table.table td a.delete {
+  color: #E34724;
+}
+
+table.table td i {
+  font-size: 20px;
+}
+
+.alignMe b {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+  padding-right: 10px; /* Ensures colon does not overlay the text */
+}
+
+.alignMe b::after {
+  content: ":";
+  position: absolute;
+  right: 10px;
+}
+
+/*Loader*/
+.loader {
+  display:block;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  height: 100%;
+  z-index:9999;
+  background-color: rgba(255, 255, 255, 0.9);
+  background-image: url(<?php echo '"' . $preloaderImgPath . '"'; ?>);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.boxtoolbar{
+  position: relative;
+  background:#ffffff;
+  border-bottom: 1px solid #f4f4f4;
+  margin-bottom: 10px;
+  width:100%;
+}
+
+.modalform{
+  width:100%;
+  text-align:left;
+  margin-left:15px;
+}
+
+.hidden{
+  display:none;
+}
+
+.titleborder{
+  padding:10px 15px;
+  border-bottom: 1px solid #d1d1d1;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.info-box-small{
+  display: block;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+
+.ibiconextra{
+  height:95px !important;
+  width: 70px !important;
+}
+
+.ibextra{
+  min-height:95px !important;
+}
+
+.ibcontentlong{
+  margin-left:70px !important;
+}
+
+.marquee {
+ height: 30px;
+ overflow: hidden;
+ position: relative;
+}
+
+.mqpublic {
+  height: 35px;
+	width:100% !important;
+  background-color: #3c8dbc;
+  margin-bottom: 10px;
+}
+
+.marquee-text-public {
+	color: #f6f6f6;
+  font-weight:400;
+  line-height: 32px;
+	position: absolute;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	/* Starting position */
+	-moz-transform:translateX(100%);
+	-webkit-transform:translateX(100%);	
+	transform:translateX(100%);
+	/* Apply animation to this element */	
+	-moz-animation: marquee 20s linear infinite;
+	-webkit-animation: marquee 20s linear infinite;
+	animation: marquee 20s linear infinite;
+}
+
+.marquee-text {
+	color: #f6f6f6;
+  font-weight:400;
+  font-size:18px;
+  line-height: 1.6;
+	position: absolute;
+	width: 100%;
+  margin: 0;
+	text-align: center;
+	/* Starting position */
+	-moz-transform:translateX(100%);
+	-webkit-transform:translateX(100%);	
+	transform:translateX(100%);
+	/* Apply animation to this element */	
+	-moz-animation: marquee 15s linear infinite;
+	-webkit-animation: marquee 15s linear infinite;
+	animation: marquee 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes marquee {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes marquee {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes marquee {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
