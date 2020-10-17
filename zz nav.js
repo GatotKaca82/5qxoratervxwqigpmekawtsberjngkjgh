@@ -35,7 +35,7 @@ document.write('                                                </ul>\n');
 document.write('                                            </li>\n');
 document.write('                                        </ul>\n');
 document.write('                                    </li>\n');
-document.write('                                    <li><a href=\"../webreporting.html\" target=\"_blank\">Webreport</a></li>\n');
+document.write('                                    <li><a href=\"../download.html\" target=\"_blank\">Download</a></li>\n');
 document.write('                                    <li><a href=\"../kontak.html\">Kontak</a></li>\n');
 document.write('                                </ul>\n');
 document.write('                                <!-- Live Chat -->\n');
