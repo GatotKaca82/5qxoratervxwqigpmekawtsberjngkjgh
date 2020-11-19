@@ -18,7 +18,7 @@ document.write('                                                    <h4 class=\"
 document.write('                                                    </h4>\n');
 document.write('                                                    <div class=\"textwidget custom-html-widget\">\n');
 document.write('                                                        <div align=\"center\"><span\n');
-document.write('                                                                style=\"font-size:115%;\"><strong>+62859121530712<br>+6289618591315<br></strong></span><br><strong><span\n');
+document.write('                                                                style=\"font-size:115%;\"><strong>083-890-625-586<br>085-912-153-0712<br>089-513-876-974<br>089-652-173-202<br></strong></span><br><strong><span\n');
 document.write('                                                                    style=\"color:blue;\">TELEGRAM</span></strong><br><a\n');
 document.write('                                                                href=\"tg://resolve?domain=ctr_otopulsabot\"><img\n');
 document.write('                                                                    alt=\"cs otopulsa pulsa murah\"\n');
