@@ -50,7 +50,7 @@ document.write( '                        height=\"61\"><br><strong><span\n' );
 document.write( '                          style=\"color:red;font-size:115%;\">0673719166</span></strong><br><img\n' );
 document.write( '                        alt=\"deposit saldo pulsa bni\" src=\"../img/scr-img/bni.webp\" width=\"150\"\n' );
 document.write( '                        height=\"61\"><br><strong><span\n' );
-document.write( '                          style=\"color:red;font-size:115%;\">002801047027504</span></strong><br><img\n' );
+document.write( '                          style=\"color:red;font-size:115%;\">002801103250508</span></strong><br><img\n' );
 document.write( '                        alt=\"deposit saldo pulsa bri\" src=\"../img/scr-img/bri.webp\" width=\"150\" height=\"61\"><br>Semua\n' );
 document.write( '                      Rekening A/N : <br><span style=\"color:blue;font-size:115%;\"><strong>Daniel\n' );
 document.write( '                          Corsel </strong></span>\n' );

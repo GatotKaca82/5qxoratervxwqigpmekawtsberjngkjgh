@@ -44,7 +44,7 @@ document.write('                                    <p></p>\n');
 document.write('                                    <a href=\"https://otopulsa.com/download.html\" target=\"_blank\">\n');
 document.write('                                        <img class=\"d-block ml-1 mx-auto\" src=\"img/scr-img/bri.webp\" width=\"100 px\"\n');
 document.write('                                            height=\"auto\" alt=\"google play oto pulsa\"></a>\n');
-document.write('                                    <li><a>002801047027504</a></li>\n');
+document.write('                                    <li><a>002801103250508</a></li>\n');
 document.write('                                    <li><a>A/N : Daniel Corsel</a></li>\n');
 document.write('                                </center>\n');
 document.write('                            </ul>\n');
