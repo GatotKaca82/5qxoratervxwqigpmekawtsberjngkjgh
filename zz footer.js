@@ -39,7 +39,7 @@ document.write('                                    <p></p>\n');
 document.write('                                    <a href=\"https://otopulsa.com/download.html\" target=\"_blank\">\n');
 document.write('                                        <img class=\"d-block ml-1 mx-auto\" src=\"../img/scr-img/bni.webp\" width=\"100 px\"\n');
 document.write('                                            height=\"auto\" alt=\"google play oto pulsa\"></a>\n');
-document.write('                                    <li><a>0673719166</a></li>\n');
+document.write('                                    <li><a>0000000000</a></li>\n');
 document.write('                                    <p></p>\n');
 document.write('                                    <a href=\"https://otopulsa.com/download.html\" target=\"_blank\">\n');
 document.write('                                        <img class=\"d-block ml-1 mx-auto\" src=\"../img/scr-img/bri.webp\" width=\"100 px\"\n');

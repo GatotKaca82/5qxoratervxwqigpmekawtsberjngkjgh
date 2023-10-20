@@ -48,7 +48,7 @@ document.write('                                                                
 document.write('                                                                    alt=\"deposit saldo pulsa mandiri\"\n');
 document.write('                                                                    src=\"./img/scr-img/mandiri.webp\" width=\"150\"\n');
 document.write('                                                                    height=\"61\"><br><strong><span\n');
-document.write('                                                                        style=\"color:red;font-size:115%;\">0673719166</span></strong><br><img\n');
+document.write('                                                                        style=\"color:red;font-size:115%;\">0000000000</span></strong><br><img\n');
 document.write('                                                                    alt=\"deposit saldo pulsa bni\"\n');
 document.write('                                                                    src=\"./img/scr-img/bni.webp\" width=\"150\"\n');
 document.write('                                                                    height=\"61\"><br><strong><span\n');
